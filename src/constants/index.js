@@ -123,10 +123,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2021 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed my 12th",
+       "Completed coursework in Physics, Chemistry, Mathematics, and Computer Science."
     ],
   },
   {
@@ -134,12 +132,12 @@ const experiences = [
     company_name: "Galgotia University",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Sept 2023 - Jun 2027",
+    date: "Sept 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with  teams and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in Hackathons and other Technical events.",
     ],
   },
   // {
@@ -156,11 +154,11 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Coming soon...",
+    company_name: "Intern",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2025 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -173,7 +171,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Raj proved me wrong.",
     name: "Risabh Chauhan",
     designation: "Student",
    
@@ -181,7 +179,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Raj does.",
     name: "Rajveer Singh",
     designation: "Student",
     
@@ -189,7 +187,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Raj optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Priyank Sanket",
     designation: "Student",
     
@@ -201,7 +199,7 @@ const projects = [
   {
     name: "Chat App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Allows users to have Awesome  Chat App with realtime messaging fuctionality with socket.io . We have one on one chat as well as group chatting functionality in this app.",
     tags: [
       {
         name: "react",
@@ -212,9 +210,14 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "socket.io",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      
     ],
     image: carrent,
     source_code_link: "https://github.com/rajvaidyanath27/Chat-App",
@@ -222,18 +225,18 @@ const projects = [
   {
     name: "AI Object Detector",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The app uses the device camera or uploaded images to detect and label real-world objects in real-time. Styled with Tailwind CSS for a modern, responsive UI. ",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tenserflow",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "canvas",
         color: "pink-text-gradient",
       },
     ],
@@ -243,18 +246,18 @@ const projects = [
   {
     name: "Resturant Table Booking",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive Table booking platform, Users can book tables by selecting the date, time, and number of guests. Come with your partner and enjoy ",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
@@ -264,18 +267,18 @@ const projects = [
   {
     name: "Currency Converter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Convert one currency to another in real time using the latest exchange rates. This project is useful for travelers, businesses, and anyone dealing with international transactions.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "api's",
         color: "pink-text-gradient",
       },
     ],
