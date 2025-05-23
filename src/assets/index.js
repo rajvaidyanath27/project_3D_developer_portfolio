@@ -12,13 +12,15 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import aws from "./tech/aws.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+// import typescript from "./tech/typescript.png";
+import nextjs from "./tech/nextjs.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -26,9 +28,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+import chat from "./chat.png";
+import ai from "./ai.png";
+import resturent from "./resturent.png";
+import currency from "./currency.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -47,16 +53,22 @@ export {
   javascript,
   mongodb,
   nodejs,
+  aws,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  // typescript,
+  nextjs,
   threejs,
   meta,
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  // carrent,
+  chat,
+  // jobit,
+  ai,
+  resturent,
+  currency,
+  // tripguide,
 };

@@ -4,7 +4,8 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
+  nextjs,
   html,
   css,
   reactjs,
@@ -14,14 +15,19 @@ import {
   mongodb,
   git,
   figma,
+  aws,
+  chat,
   docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  // carrent,
+  // jobit,
+  // tripguide,
+  resturent,
+  currency,
+  ai,
   threejs,
 } from "../assets";
 
@@ -73,8 +79,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Next JS",
+    icon: nextjs,
   },
    
   {
@@ -112,6 +118,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "AWS",
+    icon: aws,
   },
 ];
 
@@ -219,7 +229,7 @@ const projects = [
       },
       
     ],
-    image: carrent,
+    image: chat,
     source_code_link: "https://github.com/rajvaidyanath27/Chat-App",
   },
   {
@@ -240,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ai,
     source_code_link: "https://ai-object-detector-with-next-js-eta.vercel.app/",
   },
   {
@@ -261,7 +271,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: resturent,
     source_code_link: "https://github.com/rajvaidyanath27/Full-stack-resturant",
   },
   {
@@ -282,7 +292,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: currency,
     source_code_link: "https://github.com/rajvaidyanath27/Currency-Converter",
   },
 ];
