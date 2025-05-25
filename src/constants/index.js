@@ -16,6 +16,7 @@ import {
   git,
   figma,
   aws,
+  bann,
   chat,
   docker,
   meta,
@@ -294,6 +295,27 @@ const projects = [
     ],
     image: currency,
     source_code_link: "https://github.com/rajvaidyanath27/Currency-Converter",
+  },
+   {
+    name: "FlowFund",
+    description:
+      "It empowers individuals and organizations to effortlessly launch fundraising campaigns, and securely collect payments. It integrates secure payment gateways to ensure  reliable transactions.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api's",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bann,
+    source_code_link: "https://github.com/rajvaidyanath27/FlowFund",
   },
 ];
 
