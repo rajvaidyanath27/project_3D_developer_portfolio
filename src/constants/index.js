@@ -53,11 +53,11 @@ const services = [
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web 3 Enthusiast",
     icon: backend,
   },
   {
@@ -165,8 +165,8 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Coming soon...",
-    company_name: "Intern",
+    title: "Software Developer Intern",
+    company_name: "MomntumAi",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "June 2025 - Present",
@@ -255,26 +255,52 @@ const projects = [
     source_code_link: "https://ai-object-detector-with-next-js-eta.vercel.app/",
   },
   {
-    name: "Resturant Table Booking",
+    name: "Food Delivery App",
     description:
-      "A comprehensive Table booking platform, Users can book tables by selecting the date, time, and number of guests. Come with your partner and enjoy ",
+      " Developed a full-stack food delivery web application with separate User Interface, Admin Dashboard, and   Backend API, ensuring seamless interaction between customers and administrators",
+
+
+
+
+
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "Mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: resturent,
-    source_code_link: "https://github.com/rajvaidyanath27/Full-stack-resturant",
+    source_code_link: "https://github.com/rajvaidyanath27/FlowFund",
   },
+  // {
+  //   name: "Resturant Table Booking",
+  //   description:
+  //     "A comprehensive Table booking platform, Users can book tables by selecting the date, time, and number of guests. Come with your partner and enjoy ",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "express",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: resturent,
+  //   source_code_link: "https://github.com/rajvaidyanath27/Full-stack-resturant",
+  // },
   {
     name: "Currency Converter",
     description:
@@ -296,27 +322,7 @@ const projects = [
     image: currency,
     source_code_link: "https://github.com/rajvaidyanath27/Currency-Converter",
   },
-   {
-    name: "FlowFund",
-    description:
-      "It empowers individuals and organizations to effortlessly launch fundraising campaigns, and securely collect payments. It integrates secure payment gateways to ensure  reliable transactions.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "api's",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bann,
-    source_code_link: "https://github.com/rajvaidyanath27/FlowFund",
-  },
+   
 ];
 
 export { services, technologies, experiences, testimonials, projects };
