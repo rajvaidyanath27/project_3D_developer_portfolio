@@ -23,6 +23,9 @@ const Hero = () => {
             interfaces and web applications
           </p>
         </div>
+        {/* <button className={`h-10 w-32 bg-gray-600 rounded-2xl`}>
+              Resume
+        </button> */}
       </div>
 
       {/* <ComputersCanvas /> */}
