@@ -30,7 +30,9 @@ setMessages([...updatedMessages, { role: "assistant", content: data.reply }]);
   };
 
   return (
+    
     <section className="relative max-w-md w-full h-[80vh] mx-auto bg-gray-900 text-white flex flex-col justify-end p-4 rounded-xl shadow-lg">
+      
       <div className="flex-1 overflow-y-auto mb-4 p-3 rounded-lg bg-gray-800 space-y-2">
         {messages.map((msg, i) => (
           <div key={i} className={`p-2 text-sm rounded-lg ${msg.role === 'user' ? 'bg-purple-700 text-white self-end' : 'bg-gray-700 text-gray-200 self-start'}`}>

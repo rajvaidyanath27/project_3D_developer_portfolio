@@ -29,6 +29,7 @@ import {
   resturent,
   currency,
   ai,
+  aii,
   threejs,
 } from "../assets";
 
@@ -57,7 +58,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Web 3 Enthusiast",
+    title: "Ai & ML",
     icon: backend,
   },
   {
@@ -140,7 +141,7 @@ const experiences = [
   },
   {
     title: "Graduation",
-    company_name: "Galgotia University",
+    company_name: "Galgotias University",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Sept 2023 - Present",
@@ -251,17 +252,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ai,
+    image: aii,
     source_code_link: "https://ai-object-detector-with-next-js-eta.vercel.app/",
   },
   {
     name: "Food Delivery App",
     description:
       " Developed a full-stack food delivery web application with separate User Interface, Admin Dashboard, and   Backend API, ensuring seamless interaction between customers and administrators",
-
-
-
-
 
     tags: [
       {
@@ -321,6 +318,24 @@ const projects = [
     ],
     image: currency,
     source_code_link: "https://github.com/rajvaidyanath27/Currency-Converter",
+  },
+  {
+    name: "My-Uber",
+    description:
+      "A ride-booking app built using React Native that lets users book rides, view available drivers on a map, select ride options, and track their trip in real-time.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google api",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: ai,
+    source_code_link: "https://github.com/rajvaidyanath27/My-Uber",
   },
    
 ];

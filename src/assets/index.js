@@ -31,7 +31,8 @@ import tesla from "./company/tesla.png";
 
 // import carrent from "./carrent.png";
 import chat from "./chat.png";
-import ai from "./ai.png";
+import ai from "./ai.webp";
+import aii from './aii.png';
 import resturent from "./resturent.png";
 import currency from "./currency.png";
 // import jobit from "./jobit.png";
@@ -63,6 +64,7 @@ export {
   nextjs,
   threejs,
   meta,
+  aii,
   shopify,
   starbucks,
   tesla,
